@@ -1,0 +1,315 @@
+/* font-face */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general_foundicons.eot");
+  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?98294199');
+  src: url('../fonts/fontello.eot?98294199#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?98294199') format('woff'),
+       url('../fonts/fontello.ttf?98294199') format('truetype'),
+       url('../fonts/fontello.svg?98294199#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?98294199#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  font-size:2.2em;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-right-circled:before { content: '\e800'; } /* '?' */
+
+
+
+
+/* global foundicon styles */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+.foundicon-settings:before {
+  content: "\f000";
+}
+
+.foundicon-heart:before {
+  content: "\f001";
+}
+
+.foundicon-star:before {
+  content: "\f002";
+}
+
+.foundicon-plus:before {
+  content: "\f003";
+}
+
+.foundicon-minus:before {
+  content: "\f004";
+}
+
+.foundicon-checkmark:before {
+  content: "\f005";
+}
+
+.foundicon-remove:before {
+  content: "\f006";
+}
+
+.foundicon-mail:before {
+  content: "\f007";
+}
+
+.foundicon-calendar:before {
+  content: "\f008";
+}
+
+.foundicon-page:before {
+  content: "\f009";
+}
+
+.foundicon-tools:before {
+  content: "\f00a";
+}
+
+.foundicon-globe:before {
+  content: "\f00b";
+}
+
+.foundicon-home:before {
+  content: "\f00c";
+}
+
+.foundicon-quote:before {
+  content: "\f00d";
+}
+
+.foundicon-people:before {
+  content: "\f00e";
+}
+
+.foundicon-monitor:before {
+  content: "\f00f";
+}
+
+.foundicon-laptop:before {
+  content: "\f010";
+}
+
+.foundicon-phone:before {
+  content: "\f011";
+}
+
+.foundicon-cloud:before {
+  content: "\f012";
+}
+
+.foundicon-error:before {
+  content: "\f013";
+}
+
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+
+.foundicon-left-arrow:before {
+  content: "\f015";
+}
+
+.foundicon-up-arrow:before {
+  content: "\f016";
+}
+
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-windows:before { content: '\e800'; } /* '?' */
+.icon-comment-alt:before { content: '\e801'; } /* '?' */
+
+.foundicon-down-arrow:before {
+  content: "\f017";
+}
+
+.foundicon-trash:before {
+  content: "\f018";
+}
+
+.foundicon-add-doc:before {
+  content: "\f019";
+}
+
+.foundicon-edit:before {
+  content: "\f01a";
+}
+
+.foundicon-lock:before {
+  content: "\f01b";
+}
+
+.foundicon-unlock:before {
+  content: "\f01c";
+}
+
+.foundicon-refresh:before {
+  content: "\f01d";
+}
+
+.foundicon-paper-clip:before {
+  content: "\f01e";
+}
+
+.foundicon-video:before {
+  content: "\f01f";
+}
+
+.foundicon-photo:before {
+  content: "\f020";
+}
+
+.foundicon-graph:before {
+  content: "\f021";
+}
+
+.foundicon-idea:before {
+  content: "\f022";
+}
+
+.foundicon-mic:before {
+  content: "\f023";
+}
+
+.foundicon-cart:before {
+  content: "\f024";
+}
+
+.foundicon-address-book:before {
+  content: "\f025";
+}
+
+.foundicon-compass:before {
+  content: "\f026";
+}
+
+.foundicon-flag:before {
+  content: "\f027";
+}
+
+.foundicon-location:before {
+  content: "\f028";
+}
+
+.foundicon-clock:before {
+  content: "\f029";
+}
+
+.foundicon-folder:before {
+  content: "\f02a";
+}
+
+.foundicon-inbox:before {
+  content: "\f02b";
+}
+
+.foundicon-website:before {
+  content: "\f02c";
+}
+
+.foundicon-smiley:before {
+  content: "\f02d";
+}
+
+.foundicon-search:before {
+  content: "\f02e";
+}
+
+
+.large-icons {-webkit-transition: height 1.2s ease; -moz-transition: height 1.2s ease; -o-transition: height 1.2s ease; transition: height 1.2s ease; overflow: hidden; }
+.large-icons.showing {padding: 0 20px;}
+.large-icons span.general  {-webkit-transition: color .5s; -moz-transition: color .5s; -o-transition: color .5s; transition: color .5s; color: #f3fbfe; float:left; line-height: 1; text-align: left; font-size:60px;}
+.large-icons span.general:hover, .large-icons span.general :hover {color: #333333;}
+.large-icons span.general:hover p em { font-weight: bold; -webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; background: #0caee3; color: #fff; border: solid 1px #0899c9; }

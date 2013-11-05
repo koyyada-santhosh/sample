@@ -1,0 +1,10 @@
+name = Projects From PPM Studio
+description = Cron module to retrive Projects from PPM Studio.
+core = 7.x
+php = 5.x;
+package = Prolifics
+
+version = "7.x-1.1"
+core = "7.x"
+project = "projects_ppm"
+datestamp = "1361078232"

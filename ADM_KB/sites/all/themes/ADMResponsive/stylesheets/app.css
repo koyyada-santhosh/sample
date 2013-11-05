@@ -1,0 +1,225 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.ADM_logo {margin:0px 0px 1px 0px;}
+.ADM_logo a { display:block; line-height: 0.5em;}
+.flexer {background:#dff3f5; width:100%;}
+.flexer .orbit-wrapper {background:#2ab2be;}
+.search_login_box {width:44%; height:48px; clear:right; float:right;}
+.search_login_box .container-inline {float:left; width:100%; position:relative; margin-top:16px;}
+.search_box input, #edit-search-block-form--2 {background:#dae0e5 url(../images/search_icon.png) no-repeat 0px center; padding:8px 0px 8px 32px; height:30px; color:#6f8688; font-size:1em; margin-bottom:0px;}
+.container-inline  input:focus {background:#fff url(../images/search_icon.png) no-repeat 10px center;}
+.container-inline .form-submit {background:#dae0e5; color:#6f8688; border:0px; font-size:0.9em; height:30px; padding:0px 15px; }
+.container-inline #edit-actions {position:absolute; right:0px; top:0px; z-index:99;}
+.form-item-search-block-form { position:absolute; z-index:1;}
+.login_box {float:left; width:33.3333%; padding-left:30px;}
+.login_box form {margin-bottom:0px;}
+.login_box h4 {color:#6f8688; font-size:1.2em; margin:0px 0px 8px 0px; font-weight:normal;}
+.login_box input {background:#b7dbde; color:#6f8688; font-size:0.8em; width:50%; float:left; margin-bottom:6px;}
+.login_box a {color:#6f8688; text-decoration:none; float:none;}
+.login_box button {float:right;}
+.login_button {background:#facc39; color:#6f8688; padding:3px 8px; border:0px; float:right;}
+.clearit {clear:left;}
+.field-label-above { margin-bottom:10px;}
+.field-label-above .field-label {background: none repeat scroll 0 0 #DAE0E5;border-bottom: 1px solid #CFCFCF; margin-bottom:6px; padding:3px 5px; float:left; width:100%;}
+.field-item ul { margin-left:15px; padding-left:15px;}
+
+.spacing {margin-top:10px;}
+.spacing-bottom {margin-bottom:10px;}
+.heading {border-bottom:1px solid #facc39; height:42px; margin-bottom:15px;}
+.heading i {background:#facc39; padding:5px; float:left; margin-right:8px;}
+.heading h2 {font-size:28px; font-weight:normal; color:#333; margin:0px 0px 0px 0px; text-transform:uppercase;}
+
+
+/* -----------------------------------------
+   TOP MENU Styles
+----------------------------------------- */
+
+.nav-bar {background:0px; height:72px; margin:0px 0px 1px 0px; position:relative;}
+.nav-bar li {height:72px; border:0px !important; margin-left:1px; position:relative; cursor:pointer;}
+.nav-bar li a {background:url(../images/trans.png); color:#f3fbfe; font-size:14px; font-weight:bold; height:25px; line-height:23px; position:relative; top:0px; width:100%; text-align:center; float:left;-webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.2);}
+.nav-bar li i {float:left;font-size:30px;line-height:51px; height:48px; position: relative;text-align: center;width: 100%; color:#fff; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s;}
+.nav-bar li.domain {background-color:#facc39; background-position:20px 10px;}
+.nav-bar li.home {background-color:#f89b6e; background-position:20px 10px;}
+.nav-bar li.techno {background-color:#1e8bc3; background-position:-98px 10px;}
+.nav-bar li.cap {background-color:#35bc7a; background-position:-280px 10px;}
+.nav-bar li.projects {background-color:#87cfdd; background-position:-420px 10px;}
+
+.nav-bar li:hover a {height:72px; margin-top:-70px; line-height:15px; -webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);}
+.nav-bar li:hover i {-webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; margin-top:-10px; color:#09435b; margin-top:24px;}
+
+.top_wrapper {background:#fff; padding:3px 0px; margin-bottom:10px;}
+.login {display:block;height: 30px;line-height: 30px; text-align:right; padding: 0 0px; color:#f04d4e;}
+#login-content {background-color:#DAE0E5; padding:3px; padding: 5px; position: absolute; right:9px; width: 240px; z-index: 999; -moz-box-shadow: 0 7px 16px -7px #000;-webkit-box-shadow: 0 7px 16px -7px #000;box-shadow: 0 7px 16px -7px #000;}
+#login-content #edit-name, #login-content #edit-pass {width:100% !important;}
+.login a {float:right; padding:0px 6px;}
+.login a span {font-size:1.2em; padding:2px 6px; border-right:1px solid #fff;}
+
+/* -----------------------------------------
+   HOME PAGE Styles
+----------------------------------------- */
+.green_box, #block-views-domains-domain-home {background:#35bc7a; padding:6px; color:#fff; overflow:visible !important;}
+.green_box .content, #block-views-domains-domain-home .content {background:#2fa36a; padding:6px;}
+.orange_box, .region-home-info-project {background:#f86924; padding:6px; color:#fff; overflow:visible !important;}
+.orange_box .content, .region-home-info-project .content{background:#dd5e21; padding:6px;}
+.region-home-info-testimonials {background:#ff9f00; padding:6px; color:#fff; overflow:visible !important; margin-bottom:15px;}
+.region-home-info-testimonials .content {background:#e68f00; padding:6px;}
+.region-home-info-testimonials h2 {font-size:30px; color:#f3fbfe; line-height:1; margin:0px 0px 10px 0px; display:block; font-weight:normal;}
+.projects_icon {background:url(../images/technologies_icon.png) left center no-repeat; padding-left:80px; height:71px;}
+.clients {height:120px !important;}
+.clients ul li {}
+.region-home-clients .orbit-wrapper ul {margin:0px;}
+.region-home-clients .orbit-wrapper ul li { float:left;}
+.clients a {margin: 5px; vertical-align: middle; display:inline-block;}
+.clients a img {width:160px !important;}
+.clients img.fluid-placeholder {width:0px !important;}
+.clients_rw {position:relative;}
+.clients_rw .slider-nav {position:absolute; top:-14px; right:0px; width:47px;}
+.clients_rw .slider-nav span {text-indent:0px !important; background:#facc39 !important; width:23px !important; height:23px !important; text-align:center; line-height:22px;}
+
+.content .orbit-wrapper, #block-views-domains-domain-home .content, .region-home-info-project .content  {position:relative;}
+#block-views-domains-domain-home h3, #block-views-projects-home-block h3, .region-home-info-testimonials h3 {margin:0px 0px 10px 0px; font-weight:normal; font-size:18px; }
+#block-views-domains-domain-home h3 a, #block-views-projects-home-block span a{font-size:18px !important; font-weight:normal!important; margin-bottom:0px!important; color:#fff;}
+.content .orbit-wrapper .timer {display:none;}
+.content .orbit-wrapper .slider-nav {position:absolute; bottom:135px; right:0px; width:47px;}
+.content .orbit-wrapper .slider-nav span {text-indent:-10000px !important; width:23px !important; height:23px !important; text-align:center; line-height:22px; color:#333 !important;}
+
+
+	.box_st h2, #block-views-domains-domain-home h2, .region-home-info-project h2 {color:#fff; margin:0px; font-weight:normal; font-size:30px; height:62px; line-height:63px; text-transform:uppercase;}
+	.box_st .content h3, #block-views-domains-domain-home .content h3 a, .region-home-info-project .content h3 a, .region-home-info-testimonials .content h3 a {font-weight:normal; font-size:18px; color:#fff; margin:0px 0px 15px 0px; clear:left; line-height:23px;}
+	.box_st .content ul, #block-views-domains-domain-home .content ul, .region-home-info-project .content ul{margin:0px; padding:0px; list-style:none;}
+	.box_st .content ul li, #block-views-domains-domain-home .content ul li, .region-home-info-project .content ul li {margin:0px 0px 10px 0px;}
+	.border_wt {float:left; border:3px solid #fff; background:#fff; vertical-align:middle; 
+	-webkit-transition: border .5s; -moz-transition: border .5s; -o-transition: border .5s; transition: border .5s;}
+	.border_wt:hover {border:2px solid #333;}
+	.box_st .content ul li p, #block-views-domains-domain-home .content ul li p, .region-home-info-project .content ul li p, .region-home-info-testimonials .content div p {line-height:17px; font-size:0.9em; text-align:left; margin-bottom:0px;}
+	.box_st h2 span {color:#f3fbfe; font-size:30px; font-weight:normal; position:relative; top:0px;}
+
+/* -----------------------------------------
+   HOME PAGE BOX STYLE Shared Styles
+----------------------------------------- */
+.info_box {margin-top:15px;}
+.techno h3 {margin-left:170px; color:#fff;}
+.technologies .field-content a { margin-top:0px; color:#fff; margin-bottom:10px; display:block;}
+.technologies {padding:5px; background-color:#09435b; color:#fff;}
+#block-views-domains-domain-home .content, #block-views-projects-home-block .content, .region-home-info-testimonials .content {height:204px; overflow:hidden; line-height:0.8em !important;}
+
+
+
+#block-views-home-page-blocks-block ul {list-style:none; margin:0px;}
+#block-views-home-page-blocks-block ul li {padding:15px; margin:0 1px 2px; width:49.6666%; float:left; min-height:197px;}
+#block-views-home-page-blocks-block ul li a {color:#fff; font-size:1.8em; line-height:1em;padding-left:39px;display:block; margin-bottom:6px; margin-top:-15px;}
+#block-views-home-page-blocks-block ul li p {color:#fff; padding-top:11px;}
+#block-views-home-page-blocks-block ul li.views-row-1 {background:#009cea url(../images/app_dev.png) no-repeat left top;}
+#block-views-home-page-blocks-block ul li.views-row-2 {background:#7cbb00 url(../images/product_dev.png) no-repeat left top;}
+#block-views-home-page-blocks-block ul li.views-row-3 {background:#ffbb00 url(../images/application_mor.png) no-repeat left top;}
+#block-views-home-page-blocks-block ul li.views-row-4 {background:#d74e2a url(../images/portal.png) no-repeat left top;}
+
+
+
+
+/* -----------------------------------------
+   Dashboard Page STYLES
+----------------------------------------- */
+aside {background:#fff; border:1px solid #cfcfcf; padding-top:10px !important; padding-bottom:10px !important; }
+aside h4 {margin:0px 0px 10px 0px; padding:0px 0px 6px 0px; font-size:14px; color:#2789ba; border-bottom:1px solid #facc39; font-weight:bold;}
+aside .controls_chkbox label {display:block; margin-bottom:7px;}
+aside .controls_chkbox label input {margin:0px 0px 0px 6px;}
+aside .controls_chkbox {margin-bottom:20px;}
+.filterbutton {background:#FACC39; color:#333; padding:5px 8px; width:90%; border:0px; text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); -moz-box-shadow: 0 1px 11px -6px #000;-webkit-box-shadow: 0 1px 11px -6px #000;box-shadow: 0 1px 11px -6px #000; cursor:pointer; font-weight:bold;}
+.filterbutton:hover {text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); -moz-box-shadow: 0 1px 4px -6px #e0bd3d;-webkit-box-shadow: 0 1px 11px -6px #e0bd3d;box-shadow: 0 1px 11px -6px #e0bd3d; background:#e0bd3d;}
+
+aside section {border-top:0px solid #cfcfcf; margin-top:0px; float:left; width:100%;}
+aside section h5 { margin:0px 0px 10px 0px}
+aside section div {display:none;}
+aside section.active div {display:block;}
+aside section h4 {width:100% !important; background-image:url(../images/plus.png)!important; background-color:#fff !important; background-repeat:no-repeat !important; background-position:right 0px !important; border:1px solid #DAE0E5 !important; padding:8px 6px !important; margin-bottom:6px !important;}
+aside section.active h4 {background-position:right -24px !important;}
+aside section ul {margin:0px; padding:0px; list-style:none;}
+aside .behind {margin:15px -15px;}
+.pagecontent {margin-bottom:20px;}
+.pagecontent .region-content {padding:6px 6px; background:#fff; border:1px solid #cfcfcf;}
+.pagecontent .item-list ul {list-style:none;}
+.pagecontent .item-list ul li {margin:0px;}
+.pagecontent .views-row {border:1px solid #c3cfdb; margin-bottom:20px; clear:left; padding-bottom:10px; position:relative;}
+.pagecontent .views-row .edit {position:absolute; top:3px; right:5px; background:#FACC39; padding:2px 4px; color:#333;}
+.pagecontent .views-row a {color:#333; padding:0px 6px; font-family:'Maven Pro',"Century Gothic","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; font-size:14px; font-weight:bold;}
+.pagecontent .views-row p {padding:0px 6px;}
+.pagecontent .views-field-title {background: none repeat scroll 0 0 #DAE0E5; border-bottom: 1px solid #CFCFCF; height: 28px;line-height: 28px; margin: 0;padding-left: 15px; display:block; margin-bottom:10px;}
+.pagecontent .views-field-field-blurb-domain {float:left; width:80%;}
+.pagecontent .views-field-field-image-upload {float:left; margin:0px 6px 10px 6px;}
+.pheading {/*background:#1e8bc3; border:1px solid #1b6081; padding:3px 6px; color:#fff; font-size:15px !important; font-weight:bold; margin-top:0px;*/}
+.pagecontent h2 {margin-bottom:10px; margin-top:0px; font-size:1.5em; border-bottom:1px solid #CFCFCF; padding-bottom:6px;}
+.pagecontent .content .field-name-field-project-logo, .pagecontent  .content .field-name-field-technology {float:left; margin-right:10px;}
+.pagecontent .content .field-name-field-domain, .pagecontent  .content .field-name-field-technology, .pagecontent  .content .field-name-field-project-start-date, .pagecontent  .content .field-name-field-project-type, .pagecontent  .content .field-name-field-division, .pagecontent .content .field-name-field-customer {float:left; width:70%; margin-right:0px;}
+.pagecontent .content .field-type-text-with-summary , .field-name-field-testimonials, .field-type-user-reference, .field-name-field-wiki-link-project, .field-name-field-engineering, .field-name-field-mom-s, .field-name-field-customer {float:left; border-top:1px solid #CFCFCF; 
+padding:8px 0px; width:100%;}
+.pagecontent .content .field-type-user-reference .field-items {width:100%;}
+.pagecontent .content .field-type-user-reference .field-items .field-item{float:left;}
+.pagecontent .content .field-label-inline {padding-bottom:8px;}
+.field-name-field-domain .field-label, .field-name-field-technology .field-label {width:100px;}
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+.form-item-search-block-form{ float:left; width:100%; margin:0px;}
+#edit-actions--2 {float: left;width: 19%; margin-left:1px;}
+.form-wrapper{float:left;}
+.form-actions{margin-top:0px !important}
+.pagecontent  .content  .views-field-field-logo, .views-field-field-image-upload-tech  {float:left; margin-right:10px; margin-bottom:10px;}
+
+/* -----------------------------------------
+   footer Styles
+----------------------------------------- */
+footer {width:100% !important; background:#5c676b;}
+footer .prolifics { margin:0px auto;}
+footer .prolifics a { float:right;}
+footer h3 {color:#fff; font-weight:normal;}
+footer .twelve { white-space:normal;}
+.social_icons {background-color:#333333; padding:6px;}
+.social_icons h2 {color: #F3FBFE;display: block;font-size: 30px;font-weight: normal;line-height: 1; margin: 0 0 10px;}
+.social_icons ul { margin:0px; padding:0px; list-style:none;}
+.social_icons ul li {float:left; margin:0px;}
+.social_icons ul li a {font-size:1.8em;}
+.social_icons ul li a:hover {color:#fff;}
+.social_icons ul li a span {margin-left:6px;}
+.support {background:#041a23; padding:5px 0px;}
+.support .cpoyright {color:#fff;line-height: 65px;}
+
+
+/* -----------------------------------------
+   Pagenation Styles CSS
+----------------------------------------- */
+.pager {background-color:#1E8BC3; padding:3px 0px !important;}
+.pager li {background-color:#fff; padding:3px 6px !important;}
+.pager li a { color:#1E8BC3;}
+.pager li.pager-current {background-color:#FACC39;}
+
+
+
+/* -----------------------------------------
+   Override CSS
+----------------------------------------- */
+body.toolbar-drawer, body.toolbar{padding-top:0px;}
+
+.page-node-add-customers .region-content{overflow:hidden; margin-bottom:10px; padding:8px!important;}
+.page-node-add-customers .form-wrapper{float:none!important;}
+
+.form-wrapper{float:none!important;}
+#field-testimonials-add-more-wrapper .table{width:100%}
+.content label{font-weight:bold; padding-bottom:5px;}
+form .field-multiple-table th.field-label{background:#eee; border-bottom:0px; padding-left:10px!important;}
+tr.even, tr.odd{background:#f9f9f9;}
+div.vertical-tabs {margin:0px !important;}

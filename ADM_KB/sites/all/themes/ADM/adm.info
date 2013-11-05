@@ -1,0 +1,12 @@
+name = ADM
+description = This Theme is developed for ADM Internal Project.
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = /css/global.css
+stylesheets[all][] = /css/caurosal.css
+
+regions[sidebar_first] = Left sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[highlighted] = Highlighted

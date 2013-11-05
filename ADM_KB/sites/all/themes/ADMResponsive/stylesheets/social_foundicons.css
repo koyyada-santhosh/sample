@@ -1,0 +1,148 @@
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+[class*="socialcon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="socialcon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+.socialcon-thumb-up:before {
+  content: "\f000";
+}
+
+.socialcon-thumb-down:before {
+  content: "\f001";
+}
+
+.socialcon-rss:before {
+  content: "\f002";
+}
+
+.socialcon-facebook:before {
+  content: "\f003";
+}
+
+.socialcon-twitter:before {
+  content: "\f004";
+}
+
+.socialcon-pinterest:before {
+  content: "\f005";
+}
+
+.socialcon-github:before {
+  content: "\f006";
+}
+
+.socialcon-path:before {
+  content: "\f007";
+}
+
+.socialcon-linkedin:before {
+  content: "\f008";
+}
+
+.socialcon-dribbble:before {
+  content: "\f009";
+}
+
+.socialcon-stumble-upon:before {
+  content: "\f00a";
+}
+
+.socialcon-behance:before {
+  content: "\f00b";
+}
+
+.socialcon-reddit:before {
+  content: "\f00c";
+}
+
+.socialcon-google-plus:before {
+  content: "\f00d";
+}
+
+.socialcon-youtube:before {
+  content: "\f00e";
+}
+
+.socialcon-vimeo:before {
+  content: "\f00f";
+}
+
+.socialcon-flickr:before {
+  content: "\f010";
+}
+
+.socialcon-slideshare:before {
+  content: "\f011";
+}
+
+.socialcon-picassa:before {
+  content: "\f012";
+}
+
+.socialcon-skype:before {
+  content: "\f013";
+}
+
+.socialcon-steam:before {
+  content: "\f014";
+}
+
+.socialcon-instagram:before {
+  content: "\f015";
+}
+
+.socialcon-foursquare:before {
+  content: "\f016";
+}
+
+.socialcon-delicious:before {
+  content: "\f017";
+}
+
+.socialcon-chat:before {
+  content: "\f018";
+}
+
+.socialcon-torso:before {
+  content: "\f019";
+}
+
+.socialcon-tumblr:before {
+  content: "\f01a";
+}
+
+.socialcon-video-chat:before {
+  content: "\f01b";
+}
+
+.socialcon-digg:before {
+  content: "\f01c";
+}
+
+.socialcon-wordpress:before {
+  content: "\f01d";
+}

@@ -1,0 +1,31 @@
+name = ADM Responsive
+description = This Theme is developed for ADM Internal Project.
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = /stylesheets/foundation.css
+stylesheets[all][] = /stylesheets/font-awesome.css
+stylesheets[all][] = /stylesheets/app.css
+stylesheets[all][] = /stylesheets/general_foundicons.css
+
+stylesheets[all][] = /stylesheets/social_foundicons.css
+
+
+
+
+scripts[] = /javascripts/modernizr.foundation.js
+scripts[] = /javascripts/foundation.min.js
+scripts[] = /javascripts/app.js
+
+scripts[] = /javascripts/docs.js
+
+regions[header]         		=  	Header
+regions[home_blocks] 			= 	Homepage Blocks
+regions[home_info_what_we_do]	=	Homepage What we do
+regions[home_info_testimonials]	=	Homepage What We Say
+regions[home_clients]			= 	Homepage Clients
+regions[left_region]			=	Left Wrapper
+regions[content] 				= 	content
+
+regions[footer]         		=	Footer
+
+

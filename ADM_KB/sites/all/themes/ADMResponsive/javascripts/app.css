@@ -1,0 +1,130 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.ADM_logo {margin:0px;}
+.ADM_logo a { display:block; line-height: 0.5em;}
+.flexer {background:#dff3f5; width:100%;}
+.flexer .orbit-wrapper {background:#2ab2be;}
+.search_login_box {padding:0px 0px 15px 0px;}
+.search_login_box .search_box {float:left; width:66.6666%; position:relative;}
+.search_box input {background:#b7dbde url(../images/search_icon.png) no-repeat 10px center; padding:8px 0px 8px 75px; height:75px; color:#8fa8aa; font-size:2em; margin-bottom:0px;}
+.search_box input:focus {background:#fff url(../images/search_icon.png) no-repeat 10px center;}
+.search_box button {background:#a8cdd0; color:#6f8688; position:absolute; right:0px; top:0px; border:0px; font-size:1.6em; height:75px; padding:0px 15px;}
+.login_box {float:left; width:33.3333%; padding-left:30px;}
+.login_box form {margin-bottom:0px;}
+.login_box h4 {color:#6f8688; font-size:1.2em; margin:0px 0px 8px 0px; font-weight:normal;}
+.login_box input {background:#b7dbde; color:#6f8688; font-size:0.8em; width:50%; float:left; margin-bottom:6px;}
+.login_box a {color:#6f8688; text-decoration:none; float:none;}
+.login_box button {float:right;}
+.login_button {background:#facc39; color:#6f8688; padding:3px 8px; border:0px;}
+.clearit {clear:left;}
+
+
+.spacing {margin-top:30px;}
+.spacing-bottom {margin-bottom:10px;}
+.heading {border-bottom:1px solid #facc39; height:42px; margin-bottom:15px;}
+.heading i {background:#facc39; padding:5px; float:left; margin-right:8px;}
+.heading h2 {font-size:28px; font-weight:normal; color:#333; margin:0px 0px 0px 0px;}
+
+
+/* -----------------------------------------
+   TOP MENU Styles
+----------------------------------------- */
+.nav-bar {background:0px; height:85px; margin:0px 0px 1px 0px;}
+.nav-bar li {height:85px; border:0px !important; margin-left:1px; position:relative; cursor:pointer;}
+.nav-bar li a {background:url(../images/trans.png); color:#f3fbfe; font-size:17px; font-weight:bold; height:25px; position:relative; top:0px; width:100%; text-align:center; line-height: 25px; float:left;-webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.2);}
+.nav-bar li i {float: left;font-size: 40px;line-height: 55px;position: relative;text-align: center;width: 100%; height:60px; color:#fff; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s;}
+.nav-bar li.domain {background-color:#facc39; background-position:20px 10px;}
+.nav-bar li.techno {background-color:#1e8bc3; background-position:-98px 10px;}
+.nav-bar li.cap {background-color:#35bc7a; background-position:-280px 10px;}
+.nav-bar li.projects {background-color:#87cfdd; background-position:-420px 10px;}
+
+
+.nav-bar li:hover a {height:85px; margin-top:-55px; line-height:120px; -webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);}
+.nav-bar li:hover i {-webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s; transition: all .5s; margin-top:-5px; color:#09435b;}
+
+
+
+/* -----------------------------------------
+   footer Styles
+----------------------------------------- */
+footer {width:100% !important; background:#5c676b;}
+footer h3 {color:#fff; font-weight:normal;}
+footer .twelve { white-space:normal;}
+.social_icons ul li {float:none;}
+.social_icons ul li a { font-size:1.6em;}
+.social_icons ul li a:hover {color:#fff;}
+.social_icons ul li a span { margin-left:6px;}
+.support {background:#041a23; padding:5px 0px;}
+.support .cpoyright {color:#fff;line-height: 65px;}
+
+
+
+/* -----------------------------------------
+   HOME PAGE Styles
+----------------------------------------- */
+.green_box {background:#35bc7a; padding:6px; color:#fff; overflow:visible !important;}
+.green_box .flow_slide {background:#2fa36a; padding:6px;}
+.orange_box {background:#f86924; padding:6px; color:#fff; overflow:visible !important;}
+.orange_box .flow_slide {background:#dd5e21; padding:6px;}
+.yellow_box {background:#ff9f00; padding:6px; color:#fff; overflow:visible !important;}
+.yellow_box .flow_slide {background:#e68f00; padding:6px;}
+.customer_say {font-size:30px; color:#f3fbfe; line-height:1; margin-bottom:6px; display:block;}
+.projects_icon {background:url(../images/technologies_icon.png) left center no-repeat; padding-left:80px; height:71px;}
+.clients {height:120px !important;}
+.clients a {margin: 5px; vertical-align: middle; display:inline-block;}
+.clients a img {width:160px !important;}
+.clients img.fluid-placeholder {width:160px !important;}
+.clients_rw {position:relative;}
+.clients_rw .slider-nav { position:absolute; top:-14px; right:0px; width:47px;}
+.clients_rw .slider-nav span {text-indent:0px !important; background:#facc39 !important; width:23px !important; height:23px !important; text-align:center; line-height:22px;}
+
+.flow_slide .orbit-wrapper {position:relative;}
+.flow_slide .orbit-wrapper .timer {display:none;}
+.flow_slide .orbit-wrapper .slider-nav {position:absolute; bottom:-38px; right:-12px; width:47px;}
+.flow_slide .orbit-wrapper .slider-nav span {text-indent:0px !important; background:#facc39 !important; width:23px !important; height:23px !important; text-align:center; line-height:22px; color:#333 !important;}
+
+
+	.box_st h2 {color:#fff; margin:0px; font-weight:normal; font-size:30px; height:62px; line-height:63px;}
+	.box_st .flow_slide h3 {font-weight:normal; font-size:18px; color:#fff; margin:0px 0px 15px 0px; clear:left;}
+	.box_st .flow_slide ul {margin:0px; padding:0px; list-style:none;}
+	.box_st .flow_slide ul li{margin-bottom:10px;}
+	.border_wt {float:left; border:3px solid #fff; background:#fff; vertical-align:middle; 
+	-webkit-transition: border .5s; -moz-transition: border .5s; -o-transition: border .5s; transition: border .5s;}
+	.border_wt:hover {border:2px solid #333;}
+	.box_st .flow_slide ul li p {margin-left:85px; line-height:13px; text-align:justify; margin-bottom:0px;}
+	.box_st h2 span {color:#f3fbfe; font-size:30px; font-weight:normal; position:relative; top:0px;}
+
+/* -----------------------------------------
+   HOME PAGE Shared Styles
+----------------------------------------- */
+.info_box {margin-top:15px;}
+.techno h3 {margin-left:170px; color:#fff;}
+.technologies p { margin-top:15px; color:#fff; margin-bottom:10px;}
+.technologies {padding:5px; background-color:#09435b;}
+
+
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
